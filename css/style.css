@@ -1,0 +1,111 @@
+body{
+	background-color: #fdde7e;
+	font-family: 'misoregular', sans-serif;
+}
+*{
+	margin: 0;
+	padding: 0;
+	transition: all .1s ease-in;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+main{
+	width: 1200px;
+	height: 600px;
+	padding: 50px 0;
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+.item1, .item2, .item3{
+	width: 360px;
+	height: 440px;
+	background-color: #ffffff;
+	text-align: center;
+	display: block;
+	border-radius: 5px;
+	box-shadow: 0px 2px 5px 2px rgba(0,0,0,0.25);
+	padding: 40px;
+}
+.price{
+	color: #02995b;
+	font-weight: 700;
+	font-size: 70px;
+	/*line-height: 24px;*/
+	letter-spacing: 0.025em;
+	margin: 0 0 15px 0;
+}
+.kindOfCup{
+	color: #333333;
+	font-weight: 400;
+	font-size: 56px;
+	margin-bottom: 20px;
+}
+.title{
+	color: #333333;
+	font-size: 20px;
+	letter-spacing: 0.025em;
+}
+div img{
+	margin-bottom: 38px;
+}
+.item1:hover,
+.item2:hover,
+.item3:hover{
+	height: 100%;
+}
